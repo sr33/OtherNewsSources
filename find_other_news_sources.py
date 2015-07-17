@@ -9,7 +9,7 @@ def get_page_tree(url=None):
 
 def get_title(url=None):
     tree = get_page_tree(url=url)
-    return tree.xpath('//title//text()')[0].strip()
+    return tree.xpath('//title//text()')[0].strip().split(' -')[0]
 
 def find_other_news_sources(url=None, title=None):
     # Google forwards the url using <google_domain>/url?q=<actual_link>. This might change over time
