@@ -4,7 +4,7 @@ Other News Sources is a simple script that takes a news site url as an input, re
 ### Version
 0.1
 
-###Requirements
+### Requirements
   - requests
   - lxml
 
@@ -21,13 +21,13 @@ $ sudo CPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platfor
 
 ```
 
-###Usage
+### Usage
 see example.py
 
 ### Development & Ramifications
 I wrote this on a night I couldn't sleep. Please do not hold me accountable for accuracy or reliability.
 
-###Improvements
+### Improvements
   - possibility of doing a meta keywords based search
   - possibility of filtering recent news articles from captured links
 
